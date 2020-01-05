@@ -10,6 +10,6 @@ public class Main {
     @ResponseBody
     @GetMapping("/")
     public String f(){
-        return "hello";
+        return "hello world";
     }
 }
